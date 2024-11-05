@@ -29,31 +29,27 @@ I want to double-dip and save each visitor's experience and compile them into a 
 The input can be text-based for the name, it would probably be easier to make selection-based for other information. The user-input is captured and used to inform flavor text for different room experiences during the actual visit.
 
 2. Flavor text introducing the haunted house and its lore
-```
-The Haunted Magoo Lagoon was once the home of pirates and after a catastrophic hurricane, it fell into ruin. Lorem ipsum etcetera.
-```
+
+> The Haunted Magoo Lagoon was once the home of pirates and after a catastrophic hurricane, it fell into ruin. Lorem ipsum etcetera.
 
 A lot of the flavor texts are probably going to be some sort of Mad Libs situation using a corpora of some kind.
 
 3. The visitor visits
-```
-On a mild Halloween evening, Visitor McVisitFace has decided to visit The Haunted Magoo Lagoon to (test their might? have a good time with their friends? fulfill an obligation from losing a dare?)...
-```
+
+> On a mild Halloween evening, Visitor McVisitFace has decided to visit The Haunted Magoo Lagoon to (test their might? have a good time with their friends? fulfill an obligation from losing a dare?)...
 
 I don't really know what this will end up looking like. But after the haunted house is introduced, the visitor-character shoud have some sort of impetus for visiting. It should be totally random but comprehensible (as will many of the flavor-text features in this game).
 
 4. The visitor can enter a room or corridor
 
-```
-You step into a sandy, uneven area littered with rotting wood and beach towels. You hear water crashing distantly, almost like waves from the ocean. There are bird cawing. Are they crows or seagulls?
-```
+> You step into a sandy, uneven area littered with rotting wood and beach towels. You hear water crashing distantly, almost like waves from the ocean. There are bird cawing. Are they crows or seagulls?
+
 The sample text I wrote here is kind of thematic. It would be nice to constrain the procgen of flavor text based on an area's theme.
 
 5. There might be something frightening in that area: an actor, an animatronic, or the atmosphere. Maybe there is some sort of combination.
 
-```
-As you are inspecting a mossy statue, a tall, wet figure lurches out from a decaying stack of barrels. `mhreAAH`, it sputters, as it lunges towards you with a flayed hand!
-```
+> As you are inspecting a mossy statue, a tall, wet figure lurches out from a decaying stack of barrels. `mhreAAH`, it sputters, as it lunges towards you with a flayed hand!
+
 This is the money-maker feature. Should probably spend smart time working this out.
 
 6. The visitor can react to each experience
@@ -82,9 +78,7 @@ Scores can be used later in a summary text or in a behind-the-scenes report.
 
 7. The visitor leaves the room
 
-```
-After not really being scared by the Barrel Flayed-Hand Reacher, you exit the room, ducking under into a doorway covered by thick hanging vines.
-```
+> After not really being scared by the Barrel Flayed-Hand Reacher, you exit the room, ducking under into a doorway covered by thick hanging vines.
 This completes one step the visitation-loop. Eventually, there is a final room.
 
 8. The visitor is chased by a chainsaw-wielding person as they exit
